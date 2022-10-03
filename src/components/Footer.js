@@ -9,6 +9,7 @@ import {
 export default function App() {
     return (
         <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
+            <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"></link>
             <MDBContainer className='pt-4'>
                 <section className='mb-4'>
@@ -50,8 +51,8 @@ export default function App() {
                 </section>
             </MDBContainer>
 
-            <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                © 2022:
+            
+                © 2022
             </div>
         </MDBFooter>
     );
