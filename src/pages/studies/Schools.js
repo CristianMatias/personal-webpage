@@ -1,5 +1,5 @@
-import StudentCard from '../components/cards/StudentCard'
-import cesar from '../img/cesar.png'
+import StudentCard from '../../components/cards/StudentCard'
+import cesar from '../../img/cesar.png'
 
 function Schools() {
     return (

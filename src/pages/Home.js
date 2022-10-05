@@ -1,6 +1,6 @@
 import './Home.css';
 import Experience from './Experience';
-import Studies from './Studies';
+import Studies from './studies/Studies';
 import cristian from '../img/cristian.png'
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="home">
       <h3>Introducción</h3>
-      <img className='photo' src={cristian} />
+      <img className='photo' src={cristian} alt=''/>
 
       Ingeniero de APIs, listo para tomar nuevas experiencias, aplicar mis conocimientos y adquirir otras 
       nuevas. Tengo un título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, también he 
