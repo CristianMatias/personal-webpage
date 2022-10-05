@@ -16,13 +16,20 @@ function Schools() {
                     startDate={'2018'}
                     endDate={'2020'}
                 />
-                 <StudentCard
-                logo={eoi}
-                school={'Escuela Oficial de Idiomas'}
-                title={'Nivél Básico (A2) de Alemán'}
-                startDate={'2018'}
-                endDate={'2020'}
-            />
+                <StudentCard
+                    logo={eoi}
+                    school={'Escuela Oficial de Idiomas'}
+                    title={'Nivél Básico (A2) de Alemán'}
+                    startDate={'2018'}
+                    endDate={'2020'}
+                />
+                <StudentCard
+                    logo={eoi}
+                    school={'Escuela Oficial de Idiomas'}
+                    title={'Exámen Avanzado (B2) de Inglés'}
+                    startDate={'2018'}
+                    endDate={'2018'}
+                />
             </CardGroup>
 
             <br />
