@@ -1,18 +1,21 @@
 import './Home.css';
 import Experience from './Experience';
 import Studies from './studies/Studies';
-import cristian from '../img/cristian.png'
-import Contact from './Contact';
+import EmployeeCard from '../components/cards/EmployeeCard';
 
 
 function App() {
   return (
     <div className="home">
       <h3>Introducción</h3>
-      <img className='photo' src={cristian} alt=''/>
+
+      <EmployeeCard />
 
       Ingeniero de APIs, listo para tomar nuevas experiencias, aplicar mis conocimientos y adquirir otras 
-      nuevas. Tengo un título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, también he 
+      nuevas. 
+      <br/><br/>
+
+      Tengo un título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, también he 
       ampliado mis habilidades con diferentes cursos donde he aprendido diferentes lenguajes de programación 
       como C #, Python, Javascript, etc. 
       <br/><br/>
@@ -24,7 +27,6 @@ function App() {
 
       <Studies />
       <Experience />
-      <Contact />
       
       <br/><br/>
     </div>

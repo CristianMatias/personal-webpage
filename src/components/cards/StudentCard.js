@@ -2,8 +2,6 @@ import Table from 'react-bootstrap/Table';
 
 function ListGroupExample(props) {
     var hasSchool = props.school != null;
-    var hasStartDate = props.startDate != null;
-    var hasEndDate = props.endDate != null;
 
     return (
         <Table striped bordered hover>
@@ -17,13 +15,6 @@ function ListGroupExample(props) {
                 }
             </td>
             <td>{props.title}</td>
-            <td>
-                {hasStartDate ? 
-                    (hasEndDate ? 
-                        (<>{props.startDate} - {props.endDate}</>) : 
-                        (<>{props.startDate}</>)) : 
-                (<></>)}            
-            </td>
           </tr>
         </tbody>
       </Table>
