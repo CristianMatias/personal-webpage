@@ -1,12 +1,15 @@
 import './Home.css';
 import Experience from './Experience';
 import Studies from './Studies';
+import cristian from '../img/cristian.png'
 
 
 function App() {
   return (
     <div className="home">
       <h3>Introducción</h3>
+      <img className='photo' src={cristian} />
+
       Ingeniero de APIs, listo para tomar nuevas experiencias, aplicar mis conocimientos y adquirir otras 
       nuevas. Tengo un título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, también he 
       ampliado mis habilidades con diferentes cursos donde he aprendido diferentes lenguajes de programación 
@@ -16,7 +19,7 @@ function App() {
       archivos como json, csv, dat, buenas prácticas de programación (Clean Code), programación 
       multihilo, desarrollo móvil y más. También tengo un nivel avanzado de inglés (B2) y un nivel 
       básico de alemán (A2), ambos reconocidos por la Escuela Oficial de Idiomas.
-      <br/><br/>
+      <br/><br/><br />
 
       <Studies />
       <Experience />

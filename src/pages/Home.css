@@ -11,3 +11,9 @@ a:link, a:visited, a:active{
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.photo {
+  width: 10%;
+  height: 10%;
+  float: right;
+}
