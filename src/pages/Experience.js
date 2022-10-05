@@ -43,6 +43,7 @@ function Experience() {
             endDate={'Currently'}
           />
         </CardGroup>
+        <br />
       </div>
     );
 }

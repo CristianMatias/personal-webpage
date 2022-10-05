@@ -2,6 +2,7 @@ import './Home.css';
 import Experience from './Experience';
 import Studies from './studies/Studies';
 import cristian from '../img/cristian.png'
+import Contact from './Contact';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
       <Studies />
       <Experience />
+      <Contact />
       
       <br/><br/>
     </div>
