@@ -1,4 +1,4 @@
-import ExperienceCard from '../components/ExperienceCard'
+import ExperienceCard from '../components/cards/ExperienceCard'
 import aptitude from '../img/aptitude.png'
 import bitbox from '../img/bitbox.png'
 import holasoft from '../img/holasoft.png'

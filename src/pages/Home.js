@@ -1,5 +1,6 @@
 import './Home.css';
 import Experience from './Experience';
+import Studies from './Studies';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       básico de alemán (A2), ambos reconocidos por la Escuela Oficial de Idiomas.
       <br/><br/>
 
+      <Studies />
       <Experience />
       
       <br/><br/>
